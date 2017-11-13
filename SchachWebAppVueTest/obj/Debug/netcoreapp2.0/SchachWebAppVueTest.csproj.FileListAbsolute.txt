@@ -1,0 +1,15 @@
+C:\Users\Public\Paul\SchachWebAppVueTest\obj\Debug\netcoreapp2.0\SchachWebAppVueTest.csproj.CoreCompileInputs.cache
+C:\Users\Public\Paul\SchachWebAppVueTest\obj\Debug\netcoreapp2.0\SchachWebAppVueTest.AssemblyInfoInputs.cache
+C:\Users\Public\Paul\SchachWebAppVueTest\obj\Debug\netcoreapp2.0\SchachWebAppVueTest.AssemblyInfo.cs
+C:\Users\Public\Paul\SchachWebAppVueTest\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Public\Paul\SchachWebAppVueTest\bin\Debug\netcoreapp2.0\xunit.runner.utility.netstandard15.dll
+C:\Users\Public\Paul\SchachWebAppVueTest\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll
+C:\Users\Public\Paul\SchachWebAppVueTest\bin\Debug\netcoreapp2.0\SchachWebAppVueTest.deps.json
+C:\Users\Public\Paul\SchachWebAppVueTest\bin\Debug\netcoreapp2.0\SchachWebAppVueTest.runtimeconfig.json
+C:\Users\Public\Paul\SchachWebAppVueTest\bin\Debug\netcoreapp2.0\SchachWebAppVueTest.runtimeconfig.dev.json
+C:\Users\Public\Paul\SchachWebAppVueTest\bin\Debug\netcoreapp2.0\SchachWebAppVueTest.dll
+C:\Users\Public\Paul\SchachWebAppVueTest\bin\Debug\netcoreapp2.0\SchachWebAppVueTest.pdb
+C:\Users\Public\Paul\SchachWebAppVueTest\bin\Debug\netcoreapp2.0\SchachWebAppVue.dll
+C:\Users\Public\Paul\SchachWebAppVueTest\bin\Debug\netcoreapp2.0\SchachWebAppVue.pdb
+C:\Users\Public\Paul\SchachWebAppVueTest\obj\Debug\netcoreapp2.0\SchachWebAppVueTest.dll
+C:\Users\Public\Paul\SchachWebAppVueTest\obj\Debug\netcoreapp2.0\SchachWebAppVueTest.pdb
