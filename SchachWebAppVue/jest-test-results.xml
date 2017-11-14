@@ -1,0 +1,30 @@
+<testsuites name="jest tests">
+  <testsuite name="\test\sum.test.js" tests="2" errors="0" failures="2" skipped="0" timestamp="2017-11-14T14:54:02" time="0.39">
+    <testcase classname="-adds 1 + 2 to equal 3" name="-adds 1 + 2 to equal 3" time="0.014">
+      <failure>Error: expect(received).toBe(expected)
+
+Expected value to be (using ===):
+  3
+Received:
+  -1
+    at Object.&lt;anonymous&gt;.test (C:\Users\Public\Paul\SchachApp\SchachWebAppVue\test\sum.test.js:4:21)
+    at Object.asyncFn (C:\Users\Svenja\AppData\Roaming\npm\node_modules\jest\node_modules\jest-jasmine2\build\jasmine_async.js:124:345)
+    at e (C:\Users\Svenja\AppData\Roaming\npm\node_modules\jest\node_modules\jest-jasmine2\build\queue_runner.js:46:12)
+    at mapper (C:\Users\Svenja\AppData\Roaming\npm\node_modules\jest\node_modules\jest-jasmine2\build\queue_runner.js:34:499)
+    at promise.then (C:\Users\Svenja\AppData\Roaming\npm\node_modules\jest\node_modules\jest-jasmine2\build\queue_runner.js:74:39)</failure>
+    </testcase>
+    <testcase classname="-adds -1 + 2 to equal 1" name="-adds -1 + 2 to equal 1" time="0.002">
+      <failure>Error: expect(received).toBe(expected)
+
+Expected value to be (using ===):
+  1
+Received:
+  -3
+    at Object.&lt;anonymous&gt;.test (C:\Users\Public\Paul\SchachApp\SchachWebAppVue\test\sum.test.js:8:22)
+    at Object.asyncFn (C:\Users\Svenja\AppData\Roaming\npm\node_modules\jest\node_modules\jest-jasmine2\build\jasmine_async.js:124:345)
+    at e (C:\Users\Svenja\AppData\Roaming\npm\node_modules\jest\node_modules\jest-jasmine2\build\queue_runner.js:46:12)
+    at mapper (C:\Users\Svenja\AppData\Roaming\npm\node_modules\jest\node_modules\jest-jasmine2\build\queue_runner.js:34:499)
+    at promise.then (C:\Users\Svenja\AppData\Roaming\npm\node_modules\jest\node_modules\jest-jasmine2\build\queue_runner.js:74:39)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
