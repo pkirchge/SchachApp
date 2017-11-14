@@ -2996,6 +2996,12 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "OpenCover/4.6.519": {
+        "type": "package"
+      },
+      "OpenCoverToCoberturaConverter/0.2.4": {
+        "type": "package"
+      },
       "Remotion.Linq/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -5146,11 +5152,12 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
-      "xunit/2.2.0": {
+      "xunit/2.3.0": {
         "type": "package",
         "dependencies": {
-          "xunit.assert": "[2.2.0]",
-          "xunit.core": "[2.2.0]"
+          "xunit.analyzers": "0.7.0",
+          "xunit.assert": "[2.3.0]",
+          "xunit.core": "[2.3.0]"
         }
       },
       "xunit.abstractions/2.0.1": {
@@ -5165,10 +5172,13 @@
           "lib/netstandard1.0/xunit.abstractions.dll": {}
         }
       },
-      "xunit.assert/2.2.0": {
+      "xunit.analyzers/0.7.0": {
+        "type": "package"
+      },
+      "xunit.assert/2.3.0": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.0"
+          "NETStandard.Library": "1.6.1"
         },
         "compile": {
           "lib/netstandard1.1/xunit.assert.dll": {}
@@ -5177,20 +5187,25 @@
           "lib/netstandard1.1/xunit.assert.dll": {}
         }
       },
-      "xunit.core/2.2.0": {
+      "xunit.core/2.3.0": {
         "type": "package",
         "dependencies": {
-          "xunit.extensibility.core": "[2.2.0]",
-          "xunit.extensibility.execution": "[2.2.0]"
+          "xunit.extensibility.core": "[2.3.0]",
+          "xunit.extensibility.execution": "[2.3.0]"
         },
         "build": {
-          "build/netstandard1.0/_._": {}
+          "build/xunit.core.props": {},
+          "build/xunit.core.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/xunit.core.props": {},
+          "buildMultiTargeting/xunit.core.targets": {}
         }
       },
-      "xunit.extensibility.core/2.2.0": {
+      "xunit.extensibility.core/2.3.0": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.0",
+          "NETStandard.Library": "1.6.1",
           "xunit.abstractions": "2.0.1"
         },
         "compile": {
@@ -5200,11 +5215,11 @@
           "lib/netstandard1.1/xunit.core.dll": {}
         }
       },
-      "xunit.extensibility.execution/2.2.0": {
+      "xunit.extensibility.execution/2.3.0": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.0",
-          "xunit.extensibility.core": "[2.2.0]"
+          "NETStandard.Library": "1.6.1",
+          "xunit.extensibility.core": "[2.3.0]"
         },
         "compile": {
           "lib/netstandard1.1/xunit.execution.dotnet.dll": {}
@@ -8184,6 +8199,68 @@
         "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
         "newtonsoft.json.bson.1.0.1.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "OpenCover/4.6.519": {
+      "sha512": "oReudTijK4ghbd1GNTzl7Su2KzOufj2evTS5PTGAGC5ThfrThcInB/t9w2ISkcEacOsgLQTdG+PO0UUUGZ+zTw==",
+      "type": "package",
+      "path": "opencover/4.6.519",
+      "files": [
+        "License.rtf",
+        "MSBuild/OpenCover.MSBuild.dll",
+        "MSBuild/OpenCover.targets",
+        "SampleSln/.nuget/packages.config",
+        "SampleSln/Bom/Bom.csproj",
+        "SampleSln/Bom/BomManager.cs",
+        "SampleSln/Bom/Properties/AssemblyInfo.cs",
+        "SampleSln/BomSample.sln",
+        "SampleSln/BomTest/BomManagerTests.cs",
+        "SampleSln/BomTest/BomTest.csproj",
+        "SampleSln/BomTest/Properties/AssemblyInfo.cs",
+        "SampleSln/BomTest/packages.config",
+        "SampleSln/coverage.bat",
+        "SampleSln/packages/repositories.config",
+        "Samples/x64/OpenCover.Simple.Target.exe",
+        "Samples/x64/OpenCover.Simple.Target.pdb",
+        "Samples/x86/OpenCover.Simple.Target.exe",
+        "Samples/x86/OpenCover.Simple.Target.pdb",
+        "docs/ReleaseNotes.txt",
+        "docs/Usage.rtf",
+        "opencover.4.6.519.nupkg.sha512",
+        "opencover.nuspec",
+        "readme.txt",
+        "tools/Autofac.Configuration.dll",
+        "tools/Autofac.dll",
+        "tools/CrashReporter.NET.dll",
+        "tools/Gendarme.Framework.dll",
+        "tools/Gendarme.Rules.Maintainability.dll",
+        "tools/Mono.Cecil.Mdb.dll",
+        "tools/Mono.Cecil.Pdb.dll",
+        "tools/Mono.Cecil.dll",
+        "tools/OpenCover.Console.exe",
+        "tools/OpenCover.Console.exe.config",
+        "tools/OpenCover.Console.pdb",
+        "tools/OpenCover.Extensions.dll",
+        "tools/OpenCover.Extensions.pdb",
+        "tools/OpenCover.Framework.dll",
+        "tools/OpenCover.Framework.pdb",
+        "tools/log4net.config",
+        "tools/log4net.dll",
+        "tools/x64/OpenCover.Profiler.dll",
+        "tools/x86/OpenCover.Profiler.dll",
+        "transform/simple_report.xslt",
+        "transform/transform.ps1"
+      ]
+    },
+    "OpenCoverToCoberturaConverter/0.2.4": {
+      "sha512": "+rrCuGIxNtXY0pc7LCiBjg7v4YSHGNQB/37yTzN+NTpIzyfQs1avBNMEcS+egU/JLT7HUerU6b34V4uVIFhrdA==",
+      "type": "package",
+      "path": "opencovertocoberturaconverter/0.2.4",
+      "files": [
+        "LICENSE.txt",
+        "opencovertocoberturaconverter.0.2.4.nupkg.sha512",
+        "opencovertocoberturaconverter.nuspec",
+        "tools/OpenCoverToCoberturaConverter.exe"
       ]
     },
     "Remotion.Linq/2.1.1": {
@@ -13418,12 +13495,12 @@
         "windowsazure.storage.nuspec"
       ]
     },
-    "xunit/2.2.0": {
-      "sha512": "DoB9o+x3erv1DGP+pSvrIC1pWg+23LeeG8nOGVldoF+qeWNqQbabc5jLfUWW4zLOsNZfvgHcmJIKuRcZMgoV+w==",
+    "xunit/2.3.0": {
+      "sha512": "kurNRr1Gqywg6SeTWUv8OEfx7OPof2lq3e+atGjh22sgWLizQQBzZQiy9nx61p8JHnaTx901ng7+hjHXQNQzAQ==",
       "type": "package",
-      "path": "xunit/2.2.0",
+      "path": "xunit/2.3.0",
       "files": [
-        "xunit.2.2.0.nupkg.sha512",
+        "xunit.2.3.0.nupkg.sha512",
         "xunit.nuspec"
       ]
     },
@@ -13440,53 +13517,67 @@
         "xunit.abstractions.nuspec"
       ]
     },
-    "xunit.assert/2.2.0": {
-      "sha512": "OZ1HADp3tv48wK+mPxdOr4kYPn3Y1RACYCWkX0IogKIyZ8fwLeLspVk9KdHfhqXGITnTvlMcOw6PmdRAwrUreQ==",
+    "xunit.analyzers/0.7.0": {
+      "sha512": "YLyB3zDIbuliqMPOeGNp4BbNKrAMmoU0RI3DqJrPIaHJ2u1l3c9hILxUgY2DoKN2nSRgaIhGVdZ4tNSDtnaZQg==",
       "type": "package",
-      "path": "xunit.assert/2.2.0",
+      "path": "xunit.analyzers/0.7.0",
+      "files": [
+        "analyzers/dotnet/cs/xunit.analyzers.dll",
+        "tools/install.ps1",
+        "tools/uninstall.ps1",
+        "xunit.analyzers.0.7.0.nupkg.sha512",
+        "xunit.analyzers.nuspec"
+      ]
+    },
+    "xunit.assert/2.3.0": {
+      "sha512": "yUvlPZxnvieNA2mwOuOvVELkOiAYai350aGY2tXvMrSG7PeUwU5bQe7PBqhtWnmDhTz86OjIfxMQDdQidO6/ew==",
+      "type": "package",
+      "path": "xunit.assert/2.3.0",
       "files": [
         "lib/netstandard1.1/xunit.assert.dll",
         "lib/netstandard1.1/xunit.assert.xml",
-        "xunit.assert.2.2.0.nupkg.sha512",
+        "xunit.assert.2.3.0.nupkg.sha512",
         "xunit.assert.nuspec"
       ]
     },
-    "xunit.core/2.2.0": {
-      "sha512": "wuGOHofSt4sR/ros6N6S8FI2L9uuP5YsbcxM2kXpcRplMoY1pSgfEZaIRZm3NqDL/JJ/FHEksTEYkvxpc9H4Rw==",
+    "xunit.core/2.3.0": {
+      "sha512": "VcFV5ofkqoQKqq3/EzVj9sq9n6cZbXa/CV4W9euGNkAtRXQQvgvPHPJNh7vlLbyz5oMn+AAj0EkcSiSL9NCmow==",
       "type": "package",
-      "path": "xunit.core/2.2.0",
+      "path": "xunit.core/2.3.0",
       "files": [
-        "build/_desktop/xunit.execution.desktop.dll",
-        "build/netstandard1.0/_._",
-        "build/uap10.0/xunit.core.props",
-        "xunit.core.2.2.0.nupkg.sha512",
+        "build/xunit.core.props",
+        "build/xunit.core.targets",
+        "build/xunit.execution.desktop.dll",
+        "buildMultiTargeting/xunit.core.props",
+        "buildMultiTargeting/xunit.core.targets",
+        "xunit.core.2.3.0.nupkg.sha512",
         "xunit.core.nuspec"
       ]
     },
-    "xunit.extensibility.core/2.2.0": {
-      "sha512": "2bT3sG8obWbRm45NewcV+Sr2K1whj88LnjQT7szJx1DcydgKR86ggV5rIZ5NccCWo2ctZMRb0QMYttVrhrG9Gw==",
+    "xunit.extensibility.core/2.3.0": {
+      "sha512": "lDcvhWeHG22MPwjxxaSIGKumikSBf3Wyw1T5Yu7WPPpQI8e1O2zp05OfCHr2s2hxBL1yAPGIYm+9FCFMqY3lbg==",
       "type": "package",
-      "path": "xunit.extensibility.core/2.2.0",
+      "path": "xunit.extensibility.core/2.3.0",
       "files": [
         "lib/netstandard1.1/xunit.core.dll",
         "lib/netstandard1.1/xunit.core.dll.tdnet",
         "lib/netstandard1.1/xunit.core.xml",
         "lib/netstandard1.1/xunit.runner.tdnet.dll",
         "lib/netstandard1.1/xunit.runner.utility.net452.dll",
-        "xunit.extensibility.core.2.2.0.nupkg.sha512",
+        "xunit.extensibility.core.2.3.0.nupkg.sha512",
         "xunit.extensibility.core.nuspec"
       ]
     },
-    "xunit.extensibility.execution/2.2.0": {
-      "sha512": "4gjTrSUd/F6/pdsMsf+a1f1tcaUQnr59JvZQulmF8VwQbCh34ifie3iqriYyKyLmTQDUEJ/ZTPeZEDh0pxpTLA==",
+    "xunit.extensibility.execution/2.3.0": {
+      "sha512": "JqjJJ2ezexYQnYTydfrygXQoWEkyyUDbAv8c5S0OG7J8xUpBCjLLOhQ4McXQVyu6uzlaSzKRXV0B3JsIQz8XEw==",
       "type": "package",
-      "path": "xunit.extensibility.execution/2.2.0",
+      "path": "xunit.extensibility.execution/2.3.0",
       "files": [
         "lib/net452/xunit.execution.desktop.dll",
         "lib/net452/xunit.execution.desktop.xml",
         "lib/netstandard1.1/xunit.execution.dotnet.dll",
         "lib/netstandard1.1/xunit.execution.dotnet.xml",
-        "xunit.extensibility.execution.2.2.0.nupkg.sha512",
+        "xunit.extensibility.execution.2.3.0.nupkg.sha512",
         "xunit.extensibility.execution.nuspec"
       ]
     },
@@ -13523,8 +13614,10 @@
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.NET.Test.Sdk >= 15.3.0-preview-20170628-02",
       "Microsoft.NETCore.App >= 2.0.0",
+      "OpenCover >= 4.6.519",
+      "OpenCoverToCoberturaConverter >= 0.2.4",
       "SchachWebAppVue >= 1.0.0",
-      "xunit >= 2.2.0",
+      "xunit >= 2.3.0",
       "xunit.runner.visualstudio >= 2.2.0"
     ]
   },
@@ -13535,11 +13628,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Public\\Paul\\SchachWebAppVueTest\\SchachWebAppVueTest.csproj",
+      "projectUniqueName": "C:\\Users\\Public\\Paul\\SchachApp\\SchachWebAppVueTest\\SchachWebAppVueTest.csproj",
       "projectName": "SchachWebAppVueTest",
-      "projectPath": "C:\\Users\\Public\\Paul\\SchachWebAppVueTest\\SchachWebAppVueTest.csproj",
+      "projectPath": "C:\\Users\\Public\\Paul\\SchachApp\\SchachWebAppVueTest\\SchachWebAppVueTest.csproj",
       "packagesPath": "C:\\Users\\Svenja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Public\\Paul\\SchachWebAppVueTest\\obj\\",
+      "outputPath": "C:\\Users\\Public\\Paul\\SchachApp\\SchachWebAppVueTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13556,8 +13649,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Public\\Paul\\SchachWebAppVue\\SchachWebAppVue.csproj": {
-              "projectPath": "C:\\Users\\Public\\Paul\\SchachWebAppVue\\SchachWebAppVue.csproj"
+            "C:\\Users\\Public\\Paul\\SchachApp\\SchachWebAppVue\\SchachWebAppVue.csproj": {
+              "projectPath": "C:\\Users\\Public\\Paul\\SchachApp\\SchachWebAppVue\\SchachWebAppVue.csproj"
             }
           }
         }
@@ -13583,11 +13676,21 @@
           },
           "xunit": {
             "target": "Package",
-            "version": "2.2.0"
+            "version": "2.3.0"
           },
           "xunit.runner.visualstudio": {
             "target": "Package",
             "version": "2.2.0"
+          },
+          "OpenCover": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "4.6.519"
+          },
+          "OpenCoverToCoberturaConverter": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "0.2.4"
           }
         },
         "imports": [
