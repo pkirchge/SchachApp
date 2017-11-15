@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<assemblies timestamp="11/14/2017 16:56:35">
-  <assembly name="SchachWebAppVueTest.dll" environment="64-bit .NET Standard [collection-per-class, parallel (2 threads)]" test-framework="xUnit.net 2.3.0.3820" run-date="2017-11-14" run-time="16:56:34" total="1" passed="1" failed="0" skipped="0" time="0.737" errors="0">
+<assemblies timestamp="11/14/2017 18:08:23">
+  <assembly name="SchachWebAppVueTest.dll" environment="64-bit .NET Standard [collection-per-class, parallel (2 threads)]" test-framework="xUnit.net 2.3.0.3820" run-date="2017-11-14" run-time="18:08:22" total="1" passed="1" failed="0" skipped="0" time="0.364" errors="0">
     <errors />
-    <collection total="1" passed="1" failed="0" skipped="0" name="Test collection for SchachWebAppVueTest.PrimeService_IsPrimeShould" time="0.031">
-      <test name="SchachWebAppVueTest.PrimeService_IsPrimeShould.ReturnFalseGivenValueOf1" type="SchachWebAppVueTest.PrimeService_IsPrimeShould" method="ReturnFalseGivenValueOf1" time="0.0308807" result="Pass" />
+    <collection total="1" passed="1" failed="0" skipped="0" name="Test collection for SchachWebAppVueTest.PrimeService_IsPrimeShould" time="0.017">
+      <test name="SchachWebAppVueTest.PrimeService_IsPrimeShould.ReturnFalseGivenValueOf1" type="SchachWebAppVueTest.PrimeService_IsPrimeShould" method="ReturnFalseGivenValueOf1" time="0.0170422" result="Pass" />
     </collection>
   </assembly>
 </assemblies>
