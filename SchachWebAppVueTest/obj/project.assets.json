@@ -1640,6 +1640,25 @@
           "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {}
         }
       },
+      "Microsoft.DotNet.InternalAbstractions/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.AppContext": "4.1.0",
+          "System.Collections": "4.0.11",
+          "System.IO": "4.1.0",
+          "System.IO.FileSystem": "4.0.1",
+          "System.Reflection.TypeExtensions": "4.1.0",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Runtime.InteropServices": "4.1.0",
+          "System.Runtime.InteropServices.RuntimeInformation": "4.0.0"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.DotNet.InternalAbstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.DotNet.InternalAbstractions.dll": {}
+        }
+      },
       "Microsoft.DotNet.PlatformAbstractions/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -3023,6 +3042,9 @@
         "runtime": {
           "lib/netstandard1.0/Remotion.Linq.dll": {}
         }
+      },
+      "ReportGenerator/3.0.2": {
+        "type": "package"
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
@@ -5228,14 +5250,12 @@
           "lib/netstandard1.1/xunit.execution.dotnet.dll": {}
         }
       },
-      "xunit.runner.visualstudio/2.2.0": {
+      "xunit.runner.visualstudio/2.3.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.DotNet.PlatformAbstractions": "1.1.0",
-          "Microsoft.Extensions.DependencyModel": "1.1.0",
-          "Microsoft.TestPlatform.ObjectModel": "11.0.0",
-          "NETStandard.Library": "1.6.0",
-          "System.Threading.ThreadPool": "4.0.10"
+          "Microsoft.DotNet.InternalAbstractions": "1.0.0",
+          "Microsoft.Extensions.DependencyModel": "1.0.0",
+          "Microsoft.NET.Test.Sdk": "15.0.0"
         },
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
@@ -5246,7 +5266,8 @@
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.0",
-          "Microsoft.NETCore.App": "2.0.0"
+          "Microsoft.NETCore.App": "2.0.0",
+          "ReportGenerator": "3.0.2"
         },
         "compile": {
           "bin/placeholder/SchachWebAppVue.dll": {}
@@ -6550,6 +6571,17 @@
         "lib/netstandard2.0/Microsoft.Data.Sqlite.xml",
         "microsoft.data.sqlite.core.2.0.0.nupkg.sha512",
         "microsoft.data.sqlite.core.nuspec"
+      ]
+    },
+    "Microsoft.DotNet.InternalAbstractions/1.0.0": {
+      "sha512": "AAguUq7YyKk3yDWPoWA8DrLZvURxB/LrDdTn1h5lmPeznkFUpfC3p459w5mQYQE0qpquf/CkSQZ0etiV5vRHFA==",
+      "type": "package",
+      "path": "microsoft.dotnet.internalabstractions/1.0.0",
+      "files": [
+        "lib/net451/Microsoft.DotNet.InternalAbstractions.dll",
+        "lib/netstandard1.3/Microsoft.DotNet.InternalAbstractions.dll",
+        "microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512",
+        "microsoft.dotnet.internalabstractions.nuspec"
       ]
     },
     "Microsoft.DotNet.PlatformAbstractions/2.0.0": {
@@ -8280,6 +8312,24 @@
         "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.xml",
         "remotion.linq.2.1.1.nupkg.sha512",
         "remotion.linq.nuspec"
+      ]
+    },
+    "ReportGenerator/3.0.2": {
+      "sha512": "dZCSpECcpuAzn+ZNd6K18jM0XSWF0slr+VMjc9LY8ytdomyZvOuiRCUn9lnb4I/xaf4x2CyHolSn7r5XxzYquw==",
+      "type": "package",
+      "path": "reportgenerator/3.0.2",
+      "files": [
+        "LICENSE.txt",
+        "Readme.txt",
+        "reportgenerator.3.0.2.nupkg.sha512",
+        "reportgenerator.nuspec",
+        "tools/ICSharpCode.NRefactory.CSharp.dll",
+        "tools/ICSharpCode.NRefactory.dll",
+        "tools/ReportGenerator.Reporting.XML",
+        "tools/ReportGenerator.Reporting.dll",
+        "tools/ReportGenerator.XML",
+        "tools/ReportGenerator.exe",
+        "tools/ReportGenerator.exe.config"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -13581,26 +13631,34 @@
         "xunit.extensibility.execution.nuspec"
       ]
     },
-    "xunit.runner.visualstudio/2.2.0": {
-      "sha512": "CZimTpet23CeI2oXjDtICecAuEJ8Z4xSwNFY2tTKcGfm4IzKBrFmS3yzdqMMdAfiHYUgKlcyefflLOyO9ArKyQ==",
+    "xunit.runner.visualstudio/2.3.0": {
+      "sha512": "qeYrR4NDGVEVSzfwE2Br9IJKZ3AdwQ3I069SvwpyVLXY6nMRbDN0PjDgAOmWGegCIjiMACrmmqX3cmUpz3FVNw==",
       "type": "package",
-      "path": "xunit.runner.visualstudio/2.2.0",
+      "path": "xunit.runner.visualstudio/2.3.0",
       "files": [
         "build/_common/xunit.abstractions.dll",
         "build/_common/xunit.runner.reporters.net452.dll",
-        "build/_common/xunit.runner.utility.net35.dll",
+        "build/_common/xunit.runner.utility.net452.dll",
         "build/_common/xunit.runner.visualstudio.testadapter.dll",
         "build/net20/xunit.runner.visualstudio.props",
-        "build/netcoreapp1.0/xunit.runner.reporters.netstandard15.dll",
-        "build/netcoreapp1.0/xunit.runner.utility.netstandard15.dll",
+        "build/netcoreapp1.0/Microsoft.DotNet.InternalAbstractions.dll",
+        "build/netcoreapp1.0/Microsoft.Extensions.DependencyModel.dll",
+        "build/netcoreapp1.0/Newtonsoft.Json.dll",
+        "build/netcoreapp1.0/System.Runtime.Serialization.Primitives.dll",
+        "build/netcoreapp1.0/xunit.abstractions.dll",
+        "build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll",
+        "build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll",
+        "build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.xml",
+        "build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.deps.json",
         "build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll",
         "build/netcoreapp1.0/xunit.runner.visualstudio.props",
+        "build/uap10.0/xunit.runner.reporters.netstandard11.dll",
         "build/uap10.0/xunit.runner.utility.netstandard11.dll",
         "build/uap10.0/xunit.runner.visualstudio.props",
         "build/uap10.0/xunit.runner.visualstudio.targets",
         "build/uap10.0/xunit.runner.visualstudio.uwp.dll",
         "build/uap10.0/xunit.runner.visualstudio.uwp.pri",
-        "xunit.runner.visualstudio.2.2.0.nupkg.sha512",
+        "xunit.runner.visualstudio.2.3.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
     },
@@ -13618,7 +13676,7 @@
       "OpenCoverToCoberturaConverter >= 0.2.4",
       "SchachWebAppVue >= 1.0.0",
       "xunit >= 2.3.0",
-      "xunit.runner.visualstudio >= 2.2.0"
+      "xunit.runner.visualstudio >= 2.3.0"
     ]
   },
   "packageFolders": {
@@ -13628,11 +13686,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Public\\Paul\\SchachApp\\SchachWebAppVueTest\\SchachWebAppVueTest.csproj",
+      "projectUniqueName": "c:\\Users\\Public\\Paul\\SchachApp\\SchachWebAppVueTest\\SchachWebAppVueTest.csproj",
       "projectName": "SchachWebAppVueTest",
-      "projectPath": "C:\\Users\\Public\\Paul\\SchachApp\\SchachWebAppVueTest\\SchachWebAppVueTest.csproj",
+      "projectPath": "c:\\Users\\Public\\Paul\\SchachApp\\SchachWebAppVueTest\\SchachWebAppVueTest.csproj",
       "packagesPath": "C:\\Users\\Svenja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Public\\Paul\\SchachApp\\SchachWebAppVueTest\\obj\\",
+      "outputPath": "c:\\Users\\Public\\Paul\\SchachApp\\SchachWebAppVueTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13649,8 +13707,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Public\\Paul\\SchachApp\\SchachWebAppVue\\SchachWebAppVue.csproj": {
-              "projectPath": "C:\\Users\\Public\\Paul\\SchachApp\\SchachWebAppVue\\SchachWebAppVue.csproj"
+            "c:\\Users\\Public\\Paul\\SchachApp\\SchachWebAppVue\\SchachWebAppVue.csproj": {
+              "projectPath": "c:\\Users\\Public\\Paul\\SchachApp\\SchachWebAppVue\\SchachWebAppVue.csproj"
             }
           }
         }
@@ -13680,7 +13738,7 @@
           },
           "xunit.runner.visualstudio": {
             "target": "Package",
-            "version": "2.2.0"
+            "version": "2.3.0"
           },
           "OpenCover": {
             "suppressParent": "All",

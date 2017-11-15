@@ -1,9 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<assemblies timestamp="11/15/2017 13:01:38">
-  <assembly name="SchachWebAppVueTest.dll" environment="64-bit .NET Standard [collection-per-class, parallel (2 threads)]" test-framework="xUnit.net 2.3.0.3820" run-date="2017-11-15" run-time="13:01:38" total="1" passed="1" failed="0" skipped="0" time="0.309" errors="0">
+<assemblies timestamp="11/15/2017 15:30:19">
+  <assembly name="SchachWebAppVueTest.dll" environment="64-bit .NET Standard [collection-per-class, parallel (2 threads)]" test-framework="xUnit.net 2.3.0.3820" run-date="2017-11-15" run-time="15:30:18" total="3" passed="1" failed="2" skipped="0" time="1.080" errors="0">
     <errors />
-    <collection total="1" passed="1" failed="0" skipped="0" name="Test collection for SchachWebAppVueTest.PrimeService_IsPrimeShould" time="0.016">
-      <test name="SchachWebAppVueTest.PrimeService_IsPrimeShould.ReturnFalseGivenValueOf1" type="SchachWebAppVueTest.PrimeService_IsPrimeShould" method="ReturnFalseGivenValueOf1" time="0.0164776" result="Pass" />
+    <collection total="3" passed="1" failed="2" skipped="0" name="Test collection for SchachWebAppVueTest.PrimeService_IsPrimeShould" time="0.521">
+      <test name="SchachWebAppVueTest.PrimeService_IsPrimeShould.ReturnTrueGivenValueOf2" type="SchachWebAppVueTest.PrimeService_IsPrimeShould" method="ReturnTrueGivenValueOf2" time="0.5159043" result="Fail">
+        <failure exception-type="System.NotImplementedException">
+          <message><![CDATA[System.NotImplementedException : Please create a test first]]></message>
+          <stack-trace><![CDATA[   at SchachWebAppVue.Controllers.PrimeService.IsPrime(Int32 candidate)
+   at SchachWebAppVueTest.PrimeService_IsPrimeShould.ReturnTrueGivenValueOf2() in C:\Users\Public\Paul\SchachApp\SchachWebAppVueTest\UnitTest1.cs:line 34]]></stack-trace>
+        </failure>
+      </test>
+      <test name="SchachWebAppVueTest.PrimeService_IsPrimeShould.ReturnFalseGivenValueOfZero" type="SchachWebAppVueTest.PrimeService_IsPrimeShould" method="ReturnFalseGivenValueOfZero" time="0.000865" result="Fail">
+        <failure exception-type="System.NotImplementedException">
+          <message><![CDATA[System.NotImplementedException : Please create a test first]]></message>
+          <stack-trace><![CDATA[   at SchachWebAppVue.Controllers.PrimeService.IsPrime(Int32 candidate)
+   at SchachWebAppVueTest.PrimeService_IsPrimeShould.ReturnFalseGivenValueOfZero() in C:\Users\Public\Paul\SchachApp\SchachWebAppVueTest\UnitTest1.cs:line 27]]></stack-trace>
+        </failure>
+      </test>
+      <test name="SchachWebAppVueTest.PrimeService_IsPrimeShould.ReturnFalseGivenValueOf1" type="SchachWebAppVueTest.PrimeService_IsPrimeShould" method="ReturnFalseGivenValueOf1" time="0.0040157" result="Pass" />
     </collection>
   </assembly>
 </assemblies>

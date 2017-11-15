@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+  <Summary numSequencePoints="56" visitedSequencePoints="6" numBranchPoints="26" visitedBranchPoints="3" sequenceCoverage="10.71" branchCoverage="11.54" maxCyclomaticComplexity="7" minCyclomaticComplexity="1" visitedClasses="1" numClasses="8" visitedMethods="1" numMethods="20" />
   <Modules>
     <Module skippedDueTo="Filter" hash="2F-88-A9-BB-B6-16-36-10-AC-73-83-54-44-F5-17-12-E0-9F-03-28">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Private.CoreLib.dll</ModulePath>
@@ -170,28 +170,10 @@
       <ModuleName>System.Runtime.Handles</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="B2-BE-51-C1-D6-2A-0C-53-F3-F0-12-22-46-52-B4-E1-EF-2C-9E-07">
-      <ModulePath>C:\Program Files\dotnet\sdk\2.0.2\Microsoft.ApplicationInsights.dll</ModulePath>
-      <ModuleTime>2017-09-27T16:09:58Z</ModuleTime>
-      <ModuleName>Microsoft.ApplicationInsights</ModuleName>
-      <Classes />
-    </Module>
-    <Module skippedDueTo="Filter" hash="B8-E0-1C-46-05-EF-1C-0F-0F-1D-3C-D4-89-4D-08-3A-89-36-F3-E5">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Xml.XDocument.dll</ModulePath>
-      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
-      <ModuleName>System.Xml.XDocument</ModuleName>
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="3E-2C-80-45-4B-5B-8B-5F-09-84-82-17-AA-7B-43-BF-3F-43-55-D2">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Resources.ResourceManager.dll</ModulePath>
       <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
       <ModuleName>System.Resources.ResourceManager</ModuleName>
-      <Classes />
-    </Module>
-    <Module skippedDueTo="Filter" hash="DD-F6-D3-A5-01-A8-F6-AC-1B-A1-E9-B5-7C-53-43-D4-64-1C-30-53">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Private.Xml.Linq.dll</ModulePath>
-      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
-      <ModuleName>System.Private.Xml.Linq</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="E6-69-68-08-E2-62-0F-85-F0-BE-8F-4D-51-D1-88-8E-81-FD-73-0B">
@@ -204,6 +186,24 @@
       <ModulePath>C:\Program Files\dotnet\sdk\2.0.2\de\Microsoft.DotNet.Cli.Utils.resources.dll</ModulePath>
       <ModuleTime>2017-09-27T16:12:02Z</ModuleTime>
       <ModuleName>Microsoft.DotNet.Cli.Utils.resources</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B2-BE-51-C1-D6-2A-0C-53-F3-F0-12-22-46-52-B4-E1-EF-2C-9E-07">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.0.2\Microsoft.ApplicationInsights.dll</ModulePath>
+      <ModuleTime>2017-09-27T16:09:58Z</ModuleTime>
+      <ModuleName>Microsoft.ApplicationInsights</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B8-E0-1C-46-05-EF-1C-0F-0F-1D-3C-D4-89-4D-08-3A-89-36-F3-E5">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Xml.XDocument.dll</ModulePath>
+      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
+      <ModuleName>System.Xml.XDocument</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="DD-F6-D3-A5-01-A8-F6-AC-1B-A1-E9-B5-7C-53-43-D4-64-1C-30-53">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Private.Xml.Linq.dll</ModulePath>
+      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
+      <ModuleName>System.Private.Xml.Linq</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="A0-2C-E4-67-65-31-2F-52-34-BE-1B-B5-8E-F0-03-96-33-5C-4A-E3">
@@ -242,18 +242,6 @@
       <ModuleName>System.ComponentModel.Primitives</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="1D-2D-98-E4-A2-F2-43-8E-21-6C-72-DF-A8-3D-26-3C-24-D6-D9-12">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Security.Cryptography.Algorithms.dll</ModulePath>
-      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
-      <ModuleName>System.Security.Cryptography.Algorithms</ModuleName>
-      <Classes />
-    </Module>
-    <Module skippedDueTo="Filter" hash="C9-B1-4A-54-97-4E-1E-D7-82-8B-E9-17-E9-56-A6-83-32-BF-A1-41">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Security.Cryptography.Primitives.dll</ModulePath>
-      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
-      <ModuleName>System.Security.Cryptography.Primitives</ModuleName>
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="11-29-0C-F8-CE-73-3F-3E-06-AF-A0-16-05-96-4D-5A-A7-6A-DF-C2">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Collections.NonGeneric.dll</ModulePath>
       <ModuleTime>2017-07-20T14:22:06Z</ModuleTime>
@@ -270,6 +258,18 @@
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Reflection.TypeExtensions.dll</ModulePath>
       <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
       <ModuleName>System.Reflection.TypeExtensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1D-2D-98-E4-A2-F2-43-8E-21-6C-72-DF-A8-3D-26-3C-24-D6-D9-12">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Security.Cryptography.Algorithms.dll</ModulePath>
+      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.Algorithms</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C9-B1-4A-54-97-4E-1E-D7-82-8B-E9-17-E9-56-A6-83-32-BF-A1-41">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Security.Cryptography.Primitives.dll</ModulePath>
+      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.Primitives</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="85-74-21-EC-76-BB-C4-A6-3A-AE-CE-60-C8-82-FC-E5-4F-88-33-73">
@@ -716,16 +716,16 @@
       <ModuleName>Microsoft.DotNet.Cli.CommandLine</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="B2-BE-51-C1-D6-2A-0C-53-F3-F0-12-22-46-52-B4-E1-EF-2C-9E-07">
-      <ModulePath>C:\Program Files\dotnet\sdk\2.0.2\Microsoft.ApplicationInsights.dll</ModulePath>
-      <ModuleTime>2017-09-27T16:09:58Z</ModuleTime>
-      <ModuleName>Microsoft.ApplicationInsights</ModuleName>
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="2E-3F-98-9F-F8-96-78-BA-71-3A-6A-0C-9C-B3-D0-39-1E-46-25-10">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Text.RegularExpressions.dll</ModulePath>
       <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
       <ModuleName>System.Text.RegularExpressions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B2-BE-51-C1-D6-2A-0C-53-F3-F0-12-22-46-52-B4-E1-EF-2C-9E-07">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.0.2\Microsoft.ApplicationInsights.dll</ModulePath>
+      <ModuleTime>2017-09-27T16:09:58Z</ModuleTime>
+      <ModuleName>Microsoft.ApplicationInsights</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="B8-E0-1C-46-05-EF-1C-0F-0F-1D-3C-D4-89-4D-08-3A-89-36-F3-E5">
@@ -746,18 +746,6 @@
       <ModuleName>System.Diagnostics.Tracing</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="EF-01-0C-C7-04-7B-55-8E-E4-3A-33-93-09-C2-FB-42-94-A0-43-B7">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Threading.Tasks.dll</ModulePath>
-      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
-      <ModuleName>System.Threading.Tasks</ModuleName>
-      <Classes />
-    </Module>
-    <Module skippedDueTo="Filter" hash="FA-2B-87-A5-50-E5-4F-A1-C0-7E-53-1F-0B-F1-52-F1-E9-38-1F-38">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Private.Uri.dll</ModulePath>
-      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
-      <ModuleName>System.Private.Uri</ModuleName>
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="3E-2C-80-45-4B-5B-8B-5F-09-84-82-17-AA-7B-43-BF-3F-43-55-D2">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Resources.ResourceManager.dll</ModulePath>
       <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
@@ -768,6 +756,18 @@
       <ModulePath>C:\Program Files\dotnet\sdk\2.0.2\de\dotnet.resources.dll</ModulePath>
       <ModuleTime>2017-09-27T16:10:38Z</ModuleTime>
       <ModuleName>dotnet.resources</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EF-01-0C-C7-04-7B-55-8E-E4-3A-33-93-09-C2-FB-42-94-A0-43-B7">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FA-2B-87-A5-50-E5-4F-A1-C0-7E-53-1F-0B-F1-52-F1-E9-38-1F-38">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Private.Uri.dll</ModulePath>
+      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
+      <ModuleName>System.Private.Uri</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="64-12-32-8C-6E-28-7A-20-2F-F9-F3-0E-D3-2D-8D-CC-17-10-22-1C">
@@ -1106,18 +1106,6 @@
       <ModuleName>Microsoft.DotNet.PlatformAbstractions</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="DF-1D-D6-51-B7-A1-8A-53-06-A0-34-64-B1-6C-11-1E-7F-0F-CE-94">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Threading.Tasks.Dataflow.dll</ModulePath>
-      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
-      <ModuleName>System.Threading.Tasks.Dataflow</ModuleName>
-      <Classes />
-    </Module>
-    <Module skippedDueTo="Filter" hash="C9-03-33-2D-B2-3B-A1-8A-2F-95-2B-0B-9D-A7-9A-D1-0D-9E-03-C3">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\netstandard.dll</ModulePath>
-      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
-      <ModuleName>netstandard</ModuleName>
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="1D-2D-98-E4-A2-F2-43-8E-21-6C-72-DF-A8-3D-26-3C-24-D6-D9-12">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Security.Cryptography.Algorithms.dll</ModulePath>
       <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
@@ -1128,6 +1116,18 @@
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Security.Cryptography.Primitives.dll</ModulePath>
       <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
       <ModuleName>System.Security.Cryptography.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="DF-1D-D6-51-B7-A1-8A-53-06-A0-34-64-B1-6C-11-1E-7F-0F-CE-94">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Threading.Tasks.Dataflow.dll</ModulePath>
+      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks.Dataflow</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C9-03-33-2D-B2-3B-A1-8A-2F-95-2B-0B-9D-A7-9A-D1-0D-9E-03-C3">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\netstandard.dll</ModulePath>
+      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
+      <ModuleName>netstandard</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="3E-2C-80-45-4B-5B-8B-5F-09-84-82-17-AA-7B-43-BF-3F-43-55-D2">
@@ -1880,16 +1880,16 @@
       <ModuleName>System.Diagnostics.Tools</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="7F-86-D1-E6-14-45-A7-32-BF-F5-26-4C-B3-4B-72-A0-1B-F2-EF-62">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Runtime.Loader.dll</ModulePath>
-      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
-      <ModuleName>System.Runtime.Loader</ModuleName>
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="AB-3C-81-B8-F6-36-BB-7C-8D-F5-C8-0A-7F-23-6E-13-4F-0E-D5-62">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Diagnostics.Debug.dll</ModulePath>
       <ModuleTime>2017-07-20T14:22:06Z</ModuleTime>
       <ModuleName>System.Diagnostics.Debug</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7F-86-D1-E6-14-45-A7-32-BF-F5-26-4C-B3-4B-72-A0-1B-F2-EF-62">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Runtime.Loader.dll</ModulePath>
+      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
+      <ModuleName>System.Runtime.Loader</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="EE-F7-12-04-F9-F9-02-18-2C-FA-A5-20-0B-E5-40-DC-C9-BA-47-4F">
@@ -1916,16 +1916,16 @@
       <ModuleName>System.Net.Http</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="CC-A9-44-14-C0-83-81-18-CD-C3-98-18-DE-ED-DD-9B-43-0F-C5-DD">
-      <ModulePath>C:\Program Files\dotnet\sdk\2.0.2\NuGet.ProjectModel.dll</ModulePath>
-      <ModuleTime>2017-09-27T16:10:34Z</ModuleTime>
-      <ModuleName>NuGet.ProjectModel</ModuleName>
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="5F-EC-41-41-AB-49-88-F8-F1-2A-13-23-4A-59-C7-E1-C4-B9-7B-57">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Net.Primitives.dll</ModulePath>
       <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
       <ModuleName>System.Net.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CC-A9-44-14-C0-83-81-18-CD-C3-98-18-DE-ED-DD-9B-43-0F-C5-DD">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.0.2\NuGet.ProjectModel.dll</ModulePath>
+      <ModuleTime>2017-09-27T16:10:34Z</ModuleTime>
+      <ModuleName>NuGet.ProjectModel</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="FD-E1-3E-FD-23-4D-64-8B-62-CF-27-55-58-6A-B3-6F-F3-26-8C-DA">
@@ -1946,16 +1946,16 @@
       <ModuleName>System.Dynamic.Runtime</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="83-02-2F-5B-C7-1D-94-96-BC-75-A7-ED-DA-57-BA-A5-FB-E7-6F-1B">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Linq.Expressions.dll</ModulePath>
-      <ModuleTime>2017-07-20T14:22:06Z</ModuleTime>
-      <ModuleName>System.Linq.Expressions</ModuleName>
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="AE-65-E4-FB-FE-67-FA-05-AA-9C-A5-D5-B0-AF-33-CC-AF-92-9B-35">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Diagnostics.DiagnosticSource.dll</ModulePath>
       <ModuleTime>2017-07-20T14:22:06Z</ModuleTime>
       <ModuleName>System.Diagnostics.DiagnosticSource</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="83-02-2F-5B-C7-1D-94-96-BC-75-A7-ED-DA-57-BA-A5-FB-E7-6F-1B">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Linq.Expressions.dll</ModulePath>
+      <ModuleTime>2017-07-20T14:22:06Z</ModuleTime>
+      <ModuleName>System.Linq.Expressions</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="94-15-48-19-F1-3C-5A-72-8C-BC-69-73-B7-42-21-90-E4-5A-A9-B9">
@@ -2234,9 +2234,9 @@
       <ModuleName>System.IO</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="83-54-48-0A-13-33-B8-09-23-B5-90-18-F5-01-F6-5E-D9-A8-13-5E">
+    <Module skippedDueTo="MissingPdb" hash="C8-BD-1D-70-FF-9E-E2-05-FE-26-2F-7B-D8-CB-DC-81-12-76-66-CC">
       <ModulePath>C:\Users\Public\Paul\SchachApp\SchachWebAppVueTest\bin\Debug\netcoreapp2.0\SchachWebAppVueTest.dll</ModulePath>
-      <ModuleTime>2017-11-15T11:56:43.8785642Z</ModuleTime>
+      <ModuleTime>2017-11-15T14:18:43.8550738Z</ModuleTime>
       <ModuleName>SchachWebAppVueTest</ModuleName>
       <Classes />
     </Module>
@@ -2312,16 +2312,490 @@
       <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="BE-F7-BF-C9-14-E4-DB-93-73-C6-E1-14-E2-E4-8C-3B-4D-EF-A6-36">
-      <ModulePath>C:\Users\Public\Paul\SchachApp\SchachWebAppVueTest\bin\Debug\netcoreapp2.0\SchachWebAppVue.dll</ModulePath>
-      <ModuleTime>2017-11-15T11:56:35.6590941Z</ModuleTime>
-      <ModuleName>SchachWebAppVue</ModuleName>
+    <Module skippedDueTo="Filter" hash="71-55-8B-F9-57-BC-B0-34-9A-F8-A2-C8-58-A4-C7-74-EC-A4-CD-9C">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Text.Encoding.dll</ModulePath>
+      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
+      <ModuleName>System.Text.Encoding</ModuleName>
       <Classes />
+    </Module>
+    <Module hash="42-08-9F-06-C4-78-7F-9F-76-D7-83-44-F5-B5-AD-B5-7F-3E-25-C8">
+      <Summary numSequencePoints="56" visitedSequencePoints="6" numBranchPoints="26" visitedBranchPoints="3" sequenceCoverage="10.71" branchCoverage="11.54" maxCyclomaticComplexity="7" minCyclomaticComplexity="1" visitedClasses="1" numClasses="8" visitedMethods="1" numMethods="20" />
+      <ModulePath>C:\Users\Public\Paul\SchachApp\SchachWebAppVueTest\bin\Debug\netcoreapp2.0\SchachWebAppVue.dll</ModulePath>
+      <ModuleTime>2017-11-15T14:18:34.7125509Z</ModuleTime>
+      <ModuleName>SchachWebAppVue</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Users\Public\Paul\SchachApp\SchachWebAppVue\Program.cs" />
+        <File uid="2" fullPath="C:\Users\Public\Paul\SchachApp\SchachWebAppVue\Startup.cs" />
+        <File uid="4" fullPath="C:\Users\Public\Paul\SchachApp\SchachWebAppVue\Controllers\HomeController.cs" />
+        <File uid="6" fullPath="C:\Users\Public\Paul\SchachApp\SchachWebAppVue\Controllers\SampleDataController.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="7" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;&gt;f__AnonymousType0`2</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>&lt;controller&gt;j__TPar &lt;&gt;f__AnonymousType0`2::get_controller()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="1" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>&lt;action&gt;j__TPar &lt;&gt;f__AnonymousType0`2::get_action()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="2" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void &lt;&gt;f__AnonymousType0`2::.ctor(&lt;controller&gt;j__TPar,&lt;action&gt;j__TPar)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="3" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="3" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Boolean &lt;&gt;f__AnonymousType0`2::Equals(System.Object)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="4" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Int32 &lt;&gt;f__AnonymousType0`2::GetHashCode()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="5" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="7" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="7" minCyclomaticComplexity="7" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.String &lt;&gt;f__AnonymousType0`2::ToString()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="6" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>SchachWebAppVue.Program</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void SchachWebAppVue.Program::Main(System.String[])</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="7" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="8" ordinal="1" offset="1" sl="17" sc="13" el="17" ec="38" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="9" ordinal="2" offset="13" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="7" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>Microsoft.AspNetCore.Hosting.IWebHost SchachWebAppVue.Program::BuildWebHost(System.String[])</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="10" ordinal="0" offset="0" sl="21" sc="13" el="23" ec="25" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="10" ordinal="0" offset="0" sl="21" sc="13" el="23" ec="25" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Void SchachWebAppVue.Program::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="11" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="20" visitedSequencePoints="0" numBranchPoints="6" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="3" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="4" />
+          <FullName>SchachWebAppVue.Startup</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>Microsoft.Extensions.Configuration.IConfiguration SchachWebAppVue.Startup::get_Configuration()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="12" ordinal="0" offset="0" sl="20" sc="47" el="20" ec="51" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="12" ordinal="0" offset="0" sl="20" sc="47" el="20" ec="51" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void SchachWebAppVue.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="13" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="53" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="14" ordinal="1" offset="7" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="15" ordinal="2" offset="8" sl="17" sc="13" el="17" ec="43" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="16" ordinal="3" offset="15" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="13" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="53" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Void SchachWebAppVue.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="17" ordinal="0" offset="0" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="18" ordinal="1" offset="1" sl="25" sc="13" el="25" ec="31" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="19" ordinal="2" offset="8" sl="26" sc="9" el="26" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="17" ordinal="0" offset="0" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="3" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="12" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Void SchachWebAppVue.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="20" ordinal="0" offset="0" sl="30" sc="9" el="30" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="21" ordinal="1" offset="1" sl="31" sc="13" el="31" ec="37" bec="2" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="22" ordinal="2" offset="11" sl="32" sc="13" el="32" ec="14" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="23" ordinal="3" offset="12" sl="33" sc="17" el="33" ec="49" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="24" ordinal="4" offset="19" sl="34" sc="17" el="37" ec="20" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="25" ordinal="5" offset="39" sl="38" sc="13" el="38" ec="14" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="26" ordinal="6" offset="42" sl="40" sc="13" el="40" ec="14" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="27" ordinal="7" offset="43" sl="41" sc="17" el="41" ec="56" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="28" ordinal="8" offset="55" sl="42" sc="13" el="42" ec="14" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="29" ordinal="9" offset="56" sl="44" sc="13" el="44" ec="34" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="30" ordinal="10" offset="63" sl="46" sc="13" el="55" ec="16" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="31" ordinal="11" offset="101" sl="56" sc="9" el="56" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="32" ordinal="0" offset="9" sl="31" path="0" offsetend="11" fileid="2" />
+                <BranchPoint vc="0" uspid="33" ordinal="1" offset="9" sl="31" path="1" offsetend="42" fileid="2" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="20" ordinal="0" offset="0" sl="30" sc="9" el="30" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>SchachWebAppVue.Startup/&lt;&gt;c</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663318</MetadataToken>
+              <Name>System.Void SchachWebAppVue.Startup/&lt;&gt;c::.cctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="36" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663319</MetadataToken>
+              <Name>System.Void SchachWebAppVue.Startup/&lt;&gt;c::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="37" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.Void SchachWebAppVue.Startup/&lt;&gt;c::&lt;Configure&gt;b__5_0(Microsoft.AspNetCore.Routing.IRouteBuilder)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="38" ordinal="0" offset="0" sl="47" sc="13" el="47" ec="14" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="39" ordinal="1" offset="1" sl="48" sc="17" el="50" ec="73" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="40" ordinal="2" offset="18" sl="52" sc="17" el="54" ec="78" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="41" ordinal="3" offset="47" sl="55" sc="13" el="55" ec="14" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="38" ordinal="0" offset="0" sl="47" sc="13" el="47" ec="14" bec="0" bev="0" fileid="2" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>SchachWebAppVue.Controllers.HomeController</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>Microsoft.AspNetCore.Mvc.IActionResult SchachWebAppVue.Controllers.HomeController::Index()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="42" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="43" ordinal="1" offset="1" sl="14" sc="13" el="14" ec="27" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="44" ordinal="2" offset="10" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="42" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="4" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663311</MetadataToken>
+              <Name>Microsoft.AspNetCore.Mvc.IActionResult SchachWebAppVue.Controllers.HomeController::Error()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="45" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="46" ordinal="1" offset="1" sl="19" sc="13" el="19" ec="89" bec="2" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="47" ordinal="2" offset="50" sl="20" sc="13" el="20" ec="27" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="48" ordinal="3" offset="59" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="49" ordinal="0" offset="18" sl="19" path="0" offsetend="20" fileid="4" />
+                <BranchPoint vc="0" uspid="50" ordinal="1" offset="18" sl="19" path="1" offsetend="24" fileid="4" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="45" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Void SchachWebAppVue.Controllers.HomeController::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="53" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>SchachWebAppVue.Controllers.PrimeService</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Boolean SchachWebAppVue.Controllers.PrimeService::IsPrime(System.Int32)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="54" ordinal="0" offset="0" sl="26" sc="13" el="26" ec="14" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="3" uspid="55" ordinal="1" offset="1" sl="27" sc="17" el="27" ec="36" bec="2" bev="2" fileid="4" />
+                <SequencePoint vc="1" uspid="56" ordinal="2" offset="9" sl="28" sc="17" el="28" ec="18" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="57" ordinal="3" offset="10" sl="29" sc="21" el="29" ec="34" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="58" ordinal="4" offset="14" sl="31" sc="17" el="31" ec="81" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="1" uspid="59" ordinal="5" offset="25" sl="32" sc="13" el="32" ec="14" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="60" ordinal="0" offset="7" sl="27" path="0" offsetend="9" fileid="4" />
+                <BranchPoint vc="2" uspid="61" ordinal="1" offset="7" sl="27" path="1" offsetend="14" fileid="4" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="54" ordinal="0" offset="0" sl="26" sc="13" el="26" ec="14" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Void SchachWebAppVue.Controllers.PrimeService::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="62" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>SchachWebAppVue.Controllers.SampleDataController</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Collections.Generic.IEnumerable`1&lt;SchachWebAppVue.Controllers.SampleDataController/WeatherForecast&gt; SchachWebAppVue.Controllers.SampleDataController::WeatherForecasts()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="63" ordinal="0" offset="6" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="64" ordinal="1" offset="7" sl="20" sc="13" el="20" ec="36" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="65" ordinal="2" offset="18" sl="21" sc="13" el="26" ec="16" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="66" ordinal="3" offset="45" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="67" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663316</MetadataToken>
+              <Name>System.Void SchachWebAppVue.Controllers.SampleDataController::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="68" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Void SchachWebAppVue.Controllers.SampleDataController::.cctor()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="69" ordinal="0" offset="0" sl="12" sc="9" el="15" ec="11" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="69" ordinal="0" offset="0" sl="12" sc="9" el="15" ec="11" bec="0" bev="0" fileid="6" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="7" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="7" />
+          <FullName>SchachWebAppVue.Controllers.SampleDataController/WeatherForecast</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.String SchachWebAppVue.Controllers.SampleDataController/WeatherForecast::get_DateFormatted()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="70" ordinal="0" offset="0" sl="31" sc="43" el="31" ec="47" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="70" ordinal="0" offset="0" sl="31" sc="43" el="31" ec="47" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.Void SchachWebAppVue.Controllers.SampleDataController/WeatherForecast::set_DateFormatted(System.String)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="71" ordinal="0" offset="0" sl="31" sc="48" el="31" ec="52" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="71" ordinal="0" offset="0" sl="31" sc="48" el="31" ec="52" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663323</MetadataToken>
+              <Name>System.Int32 SchachWebAppVue.Controllers.SampleDataController/WeatherForecast::get_TemperatureC()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="72" ordinal="0" offset="0" sl="32" sc="39" el="32" ec="43" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="72" ordinal="0" offset="0" sl="32" sc="39" el="32" ec="43" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663324</MetadataToken>
+              <Name>System.Void SchachWebAppVue.Controllers.SampleDataController/WeatherForecast::set_TemperatureC(System.Int32)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="73" ordinal="0" offset="0" sl="32" sc="44" el="32" ec="48" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="73" ordinal="0" offset="0" sl="32" sc="44" el="32" ec="48" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663325</MetadataToken>
+              <Name>System.String SchachWebAppVue.Controllers.SampleDataController/WeatherForecast::get_Summary()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="74" ordinal="0" offset="0" sl="33" sc="37" el="33" ec="41" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="74" ordinal="0" offset="0" sl="33" sc="37" el="33" ec="41" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663326</MetadataToken>
+              <Name>System.Void SchachWebAppVue.Controllers.SampleDataController/WeatherForecast::set_Summary(System.String)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="75" ordinal="0" offset="0" sl="33" sc="42" el="33" ec="46" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="75" ordinal="0" offset="0" sl="33" sc="42" el="33" ec="46" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663327</MetadataToken>
+              <Name>System.Int32 SchachWebAppVue.Controllers.SampleDataController/WeatherForecast::get_TemperatureF()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="76" ordinal="0" offset="0" sl="38" sc="17" el="38" ec="18" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="77" ordinal="1" offset="1" sl="39" sc="21" el="39" ec="62" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="78" ordinal="2" offset="25" sl="40" sc="17" el="40" ec="18" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="76" ordinal="0" offset="0" sl="38" sc="17" el="38" ec="18" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663328</MetadataToken>
+              <Name>System.Void SchachWebAppVue.Controllers.SampleDataController/WeatherForecast::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="79" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>SchachWebAppVue.Controllers.SampleDataController/&lt;&gt;c__DisplayClass1_0</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663329</MetadataToken>
+              <Name>System.Void SchachWebAppVue.Controllers.SampleDataController/&lt;&gt;c__DisplayClass1_0::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="80" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663330</MetadataToken>
+              <Name>SchachWebAppVue.Controllers.SampleDataController/WeatherForecast SchachWebAppVue.Controllers.SampleDataController/&lt;&gt;c__DisplayClass1_0::&lt;WeatherForecasts&gt;b__0(System.Int32)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="81" ordinal="0" offset="0" sl="21" sc="59" el="26" ec="14" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="81" ordinal="0" offset="0" sl="21" sc="59" el="26" ec="14" bec="0" bev="0" fileid="6" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
     </Module>
     <Module skippedDueTo="Filter" hash="C1-17-1F-39-D9-91-3D-9B-6C-D4-B9-5D-54-8A-13-30-22-CD-EF-DC">
       <ModulePath>C:\Users\Svenja\.nuget\packages\xunit.assert\2.3.0\lib/netstandard1.1/xunit.assert.dll</ModulePath>
       <ModuleTime>2017-10-06T12:56:38Z</ModuleTime>
       <ModuleName>xunit.assert</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="66-6B-27-9A-10-59-D5-AB-CD-9A-91-34-4B-EA-91-4F-A9-0B-11-35">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Diagnostics.StackTrace.dll</ModulePath>
+      <ModuleTime>2017-07-20T14:22:06Z</ModuleTime>
+      <ModuleName>System.Diagnostics.StackTrace</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A0-72-53-FA-36-18-FB-FB-F8-17-22-67-D9-37-D8-0C-48-8C-D2-DE">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Reflection.Metadata.dll</ModulePath>
+      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
+      <ModuleName>System.Reflection.Metadata</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B1-F6-FE-F4-3D-92-32-23-15-F5-F7-C9-04-1B-F8-AD-AF-D2-E4-C6">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Collections.Immutable.dll</ModulePath>
+      <ModuleTime>2017-07-20T14:22:06Z</ModuleTime>
+      <ModuleName>System.Collections.Immutable</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D3-F6-1A-F1-57-F1-04-F9-6E-11-BB-94-3E-86-F5-C3-6D-06-04-E2">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Text.Encoding.Extensions.dll</ModulePath>
+      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
+      <ModuleName>System.Text.Encoding.Extensions</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="A0-2C-E4-67-65-31-2F-52-34-BE-1B-B5-8E-F0-03-96-33-5C-4A-E3">

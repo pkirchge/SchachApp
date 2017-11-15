@@ -21,5 +21,19 @@ namespace SchachWebAppVueTest
 
             Assert.False(result, "1 should not be prime");
         }
+        [Fact]
+        public void ReturnFalseGivenValueOfZero()
+        {
+            var result = _primeService.IsPrime(0);
+
+            Assert.False(result, "0 should not be prime");
+        }
+        [Fact]
+        public void ReturnTrueGivenValueOf2()
+        {
+            var result = _primeService.IsPrime(2);
+
+            Assert.True(result, "2 should be prime");
+        }
     }
 }
