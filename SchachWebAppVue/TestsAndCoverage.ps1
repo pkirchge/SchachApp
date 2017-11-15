@@ -4,7 +4,7 @@ $testProjects = "SchachWebAppVueTest"
 $nugetOpenCoverPackage = Join-Path -Path "C:\Users\Svenja" -ChildPath "\.nuget\packages\OpenCover"
 $latestOpenCover = Join-Path -Path ((Get-ChildItem -Path $nugetOpenCoverPackage | Sort-Object Fullname -Descending)[0].FullName) -ChildPath "tools\OpenCover.Console.exe"
 # Get the most recent OpenCoverToCoberturaConverter from the dotnet nuget packages
-$nugetCoberturaConverterPackage = Join-Path -Path $env:USERPROFILE -ChildPath "\.nuget\packages\OpenCoverToCoberturaConverter"
+$nugetCoberturaConverterPackage = Join-Path -Path "C:\Users\Svenja" -ChildPath "\.nuget\packages\OpenCoverToCoberturaConverter"
 $latestCoberturaConverter = Join-Path -Path (Get-ChildItem -Path $nugetCoberturaConverterPackage | Sort-Object Fullname -Descending)[0].FullName -ChildPath "tools\OpenCoverToCoberturaConverter.exe"
 
 If (Test-Path "$PSScriptRoot\OpenCover.coverageresults"){

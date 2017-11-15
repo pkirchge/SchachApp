@@ -1,1 +1,4 @@
 SchachWebAppVue/node_modules/
+SchachWebAppVue/OpenCover.coverageresults
+SchachWebAppVueTest/bin/Debug/netcoreapp2.0/SchachWebAppVue.dll
+SchachWebAppVueTest/obj/Debug/netcoreapp2.0/SchachWebAppVueTest.csproj.CoreCompileInputs.cache
