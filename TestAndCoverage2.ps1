@@ -35,14 +35,15 @@ foreach ($testProject in $testProjects){
     "Running tests with OpenCover"
     & $latestOpenCover `
         -register:user `
-        -target:dotnet.exe `
+        "-target:C:\Program Files\dotnet\dotnet.exe" `
         -targetdir:$PSScriptRoot\$testProject `
         "-targetargs:$dotnetArguments" `
         -returntargetcode `
         -output:"$PSScriptRoot\OpenCover.coverageresults" `
         -mergeoutput `
         -oldStyle `
-
+        -excludebyattribute:System.CodeDom.Compiler.GeneratedCodeAttribute `
+        "-filter:+[SchachWebAppVue*]* -[*.Tests.*]*"
 
         $testRuns++
 }
