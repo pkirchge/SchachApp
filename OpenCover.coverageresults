@@ -242,6 +242,18 @@
       <ModuleName>System.ComponentModel.Primitives</ModuleName>
       <Classes />
     </Module>
+    <Module skippedDueTo="Filter" hash="1D-2D-98-E4-A2-F2-43-8E-21-6C-72-DF-A8-3D-26-3C-24-D6-D9-12">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Security.Cryptography.Algorithms.dll</ModulePath>
+      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.Algorithms</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C9-B1-4A-54-97-4E-1E-D7-82-8B-E9-17-E9-56-A6-83-32-BF-A1-41">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Security.Cryptography.Primitives.dll</ModulePath>
+      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.Primitives</ModuleName>
+      <Classes />
+    </Module>
     <Module skippedDueTo="Filter" hash="11-29-0C-F8-CE-73-3F-3E-06-AF-A0-16-05-96-4D-5A-A7-6A-DF-C2">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Collections.NonGeneric.dll</ModulePath>
       <ModuleTime>2017-07-20T14:22:06Z</ModuleTime>
@@ -254,22 +266,10 @@
       <ModuleName>System.Text.RegularExpressions</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="1D-2D-98-E4-A2-F2-43-8E-21-6C-72-DF-A8-3D-26-3C-24-D6-D9-12">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Security.Cryptography.Algorithms.dll</ModulePath>
-      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
-      <ModuleName>System.Security.Cryptography.Algorithms</ModuleName>
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="4A-A3-9A-94-A3-C6-3B-8F-C1-2F-D9-CC-68-D2-E4-8C-AE-50-F4-F1">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Reflection.TypeExtensions.dll</ModulePath>
       <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
       <ModuleName>System.Reflection.TypeExtensions</ModuleName>
-      <Classes />
-    </Module>
-    <Module skippedDueTo="Filter" hash="C9-B1-4A-54-97-4E-1E-D7-82-8B-E9-17-E9-56-A6-83-32-BF-A1-41">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Security.Cryptography.Primitives.dll</ModulePath>
-      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
-      <ModuleName>System.Security.Cryptography.Primitives</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="85-74-21-EC-76-BB-C4-A6-3A-AE-CE-60-C8-82-FC-E5-4F-88-33-73">
@@ -716,12 +716,6 @@
       <ModuleName>Microsoft.DotNet.Cli.CommandLine</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="2E-3F-98-9F-F8-96-78-BA-71-3A-6A-0C-9C-B3-D0-39-1E-46-25-10">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Text.RegularExpressions.dll</ModulePath>
-      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
-      <ModuleName>System.Text.RegularExpressions</ModuleName>
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="B2-BE-51-C1-D6-2A-0C-53-F3-F0-12-22-46-52-B4-E1-EF-2C-9E-07">
       <ModulePath>C:\Program Files\dotnet\sdk\2.0.2\Microsoft.ApplicationInsights.dll</ModulePath>
       <ModuleTime>2017-09-27T16:09:58Z</ModuleTime>
@@ -738,6 +732,12 @@
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Private.Xml.Linq.dll</ModulePath>
       <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
       <ModuleName>System.Private.Xml.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2E-3F-98-9F-F8-96-78-BA-71-3A-6A-0C-9C-B3-D0-39-1E-46-25-10">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Text.RegularExpressions.dll</ModulePath>
+      <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
+      <ModuleName>System.Text.RegularExpressions</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="A0-2C-E4-67-65-31-2F-52-34-BE-1B-B5-8E-F0-03-96-33-5C-4A-E3">
@@ -1880,16 +1880,16 @@
       <ModuleName>System.Diagnostics.Tools</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="AB-3C-81-B8-F6-36-BB-7C-8D-F5-C8-0A-7F-23-6E-13-4F-0E-D5-62">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Diagnostics.Debug.dll</ModulePath>
-      <ModuleTime>2017-07-20T14:22:06Z</ModuleTime>
-      <ModuleName>System.Diagnostics.Debug</ModuleName>
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="7F-86-D1-E6-14-45-A7-32-BF-F5-26-4C-B3-4B-72-A0-1B-F2-EF-62">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Runtime.Loader.dll</ModulePath>
       <ModuleTime>2017-07-20T14:22:08Z</ModuleTime>
       <ModuleName>System.Runtime.Loader</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AB-3C-81-B8-F6-36-BB-7C-8D-F5-C8-0A-7F-23-6E-13-4F-0E-D5-62">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Diagnostics.Debug.dll</ModulePath>
+      <ModuleTime>2017-07-20T14:22:06Z</ModuleTime>
+      <ModuleName>System.Diagnostics.Debug</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="EE-F7-12-04-F9-F9-02-18-2C-FA-A5-20-0B-E5-40-DC-C9-BA-47-4F">
@@ -1946,16 +1946,16 @@
       <ModuleName>System.Dynamic.Runtime</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="AE-65-E4-FB-FE-67-FA-05-AA-9C-A5-D5-B0-AF-33-CC-AF-92-9B-35">
-      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Diagnostics.DiagnosticSource.dll</ModulePath>
-      <ModuleTime>2017-07-20T14:22:06Z</ModuleTime>
-      <ModuleName>System.Diagnostics.DiagnosticSource</ModuleName>
-      <Classes />
-    </Module>
     <Module skippedDueTo="Filter" hash="83-02-2F-5B-C7-1D-94-96-BC-75-A7-ED-DA-57-BA-A5-FB-E7-6F-1B">
       <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Linq.Expressions.dll</ModulePath>
       <ModuleTime>2017-07-20T14:22:06Z</ModuleTime>
       <ModuleName>System.Linq.Expressions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AE-65-E4-FB-FE-67-FA-05-AA-9C-A5-D5-B0-AF-33-CC-AF-92-9B-35">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0\System.Diagnostics.DiagnosticSource.dll</ModulePath>
+      <ModuleTime>2017-07-20T14:22:06Z</ModuleTime>
+      <ModuleName>System.Diagnostics.DiagnosticSource</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="94-15-48-19-F1-3C-5A-72-8C-BC-69-73-B7-42-21-90-E4-5A-A9-B9">
