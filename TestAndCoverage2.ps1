@@ -43,7 +43,7 @@ foreach ($testProject in $testProjects){
         -mergeoutput `
         -oldStyle `
         -excludebyattribute:System.CodeDom.Compiler.GeneratedCodeAttribute `
-        "-filter:+[SchachWebAppVue*]* -[*.Tests]* -[*.Tests.*]*"
+        "-filter:+[SchachWebAppVue*]* -[*.Tests.*]*"
 
         $testRuns++
 }
