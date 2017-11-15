@@ -15,6 +15,7 @@ If (Test-Path "$PSScriptRoot\Cobertura.coverageresults"){
 	Remove-Item "$PSScriptRoot\Cobertura.coverageresults"
 }
 # run dotnet restore on project
+"Restore main project"
 cd .\SchachWebAppVue
 & dotnet restore
 cd ..
