@@ -14,6 +14,7 @@ If (Test-Path "$PSScriptRoot\OpenCover.coverageresults"){
 If (Test-Path "$PSScriptRoot\Cobertura.coverageresults"){
 	Remove-Item "$PSScriptRoot\Cobertura.coverageresults"
 }
+# run dotnet restore on project
 cd .\SchachWebAppVue
 & dotnet restore
 cd ..
@@ -22,7 +23,7 @@ $testRuns = 1;
 foreach ($testProject in $testProjects){
 
     # Arguments for running dotnet
-    $dotnetArguments = "xunit", "-xml `"`"$PSScriptRoot\testRuns_$testRuns.testresults`"`""
+    $dotnetArguments = "xunit", "-xml `"$PSScriptRoot\testRuns_$testRuns.testresults`""
 
     "Running tests with OpenCover"
     & $latestOpenCover `
