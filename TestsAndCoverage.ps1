@@ -25,12 +25,12 @@ foreach ($testProject in $testProjects){
 
     # Arguments for running dotnet
     $dotnetArguments = "xunit", "-xml `"$PSScriptRoot\testRuns_$testRuns.testresults`""
-
+    $dotnetExe = "dotnet.exe"
     "Running tests with OpenCover"
     & $latestOpenCover `
         -register:user `
-        "-target:`"dotnet.exe`"" `
-        "-targetdir:`"$PSScriptRoot\$testProject`"" `
+        "-target:$dotnetExe" `
+        -targetdir:$PSScriptRoot\$testProject `
         "-targetargs:$dotnetArguments" `
         -returntargetcode `
         -output:"$PSScriptRoot\OpenCover.coverageresults" `
