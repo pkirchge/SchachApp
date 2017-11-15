@@ -42,8 +42,7 @@ foreach ($testProject in $testProjects){
         -output:"$PSScriptRoot\OpenCover.coverageresults" `
         -mergeoutput `
         -oldStyle `
-        -excludebyattribute:System.CodeDom.Compiler.GeneratedCodeAttribute `
-        "-filter:+[SchachWebAppVue*]* -[*.Tests.*]*"
+
 
         $testRuns++
 }
