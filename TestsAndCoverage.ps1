@@ -28,7 +28,7 @@ foreach ($testProject in $testProjects){
     "Running tests with OpenCover"
     & $latestOpenCover `
         -register:user `
-        "-target:dotnet.exe" `
+        ""-target:dotnet.exe"" `
         "-targetdir:$PSScriptRoot\$testProject" `
         "-targetargs:$dotnetArguments" `
         -returntargetcode `
